@@ -9,8 +9,12 @@ public abstract class Shape {
 
     @Override
     public String toString() {
-        return "Shape '" + name + "' has an area of " + this.shapeArea() + ".";
+        return "Shape '" + name + "' has an area of " + this.shapeArea() + " and perimeter of " + this.perimeter() + ".";
     }
     
     abstract double shapeArea();
+    
+    abstract double perimeter();
+    
+    
 }

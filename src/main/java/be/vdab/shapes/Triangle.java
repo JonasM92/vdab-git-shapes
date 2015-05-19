@@ -8,4 +8,10 @@ public class Triangle extends Shape {
     double shapeArea() {
 		return 42;
 	}
+
+	@Override
+	double perimeter() {
+		// TODO Auto-generated method stub
+		return 0;
+	}
 }

@@ -8,4 +8,14 @@ public class Rectangle extends Shape {
     double shapeArea() {
 		return 42;
 	}
+
+	@Override
+	double perimeter() {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+    
+    
+    
+   
 }
