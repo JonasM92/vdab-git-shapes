@@ -9,6 +9,10 @@ public abstract class Shape {
 
     @Override
     public String toString() {
-        return "Shape '" + name + "'";
+        return "The perimeter of this shape is: " + this.perimeter();
     }
+    
+    abstract double perimeter();
+    
+    
 }
